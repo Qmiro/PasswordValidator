@@ -1,0 +1,18 @@
+{
+	"description" : "Laminas Password Validator",
+	"keywords" : [
+		"laminas",
+		"mvc",
+		"validator",
+		"password"
+	],
+	"require" : {
+		"laminas/laminas-stdlib" : "^3.17",
+		"laminas/laminas-validator" : "^2.33"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Application\\" : "src/Application/"
+		}
+	}
+}
